@@ -7,7 +7,6 @@ class TwitterMessage extends React.Component {
   }
 
   handleChange = (e) => {
-    e.preventDefault()
     console.log(e.target.value)
     this.setState({
       message: e.target.value
